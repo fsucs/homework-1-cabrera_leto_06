@@ -1,12 +1,17 @@
 Getting Started
 ===============
 
-Please update this README file to showcase about this project. There is no specific format for README file, but you should tell about your overall project works and how can anyone will run your code.
+I worked on this project myself, my partner never responded to my messages.
+
+The program:
+        outputs the highest count of single character in a string.
+        assumes there is only one character with the highest count.
 
 
 Installation and RUN
 
 Please specify, How to run this project?
+The project should run using MakeFile, but I was unable to get it to work. 
 
 Documentation
 =============
