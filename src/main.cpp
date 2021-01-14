@@ -23,21 +23,7 @@ int get_max_count(std::string sinput)
   //variable used to send output to main
   int MaxCharCount = 0;
   
- //
-  for(char ch = 32; ch < 127; ch++)
-	{
-	 int count = 0;
-
-	//unsigned int to fix compiler warning
-	 for(unsigned int i = 0; i < sinput.size(); i++)
-	{
-
-		if(ch == sinput[i])
-			count++;
-	}
-	  if(count > MaxCharCount)
-	MaxCharCount = count;
-	}
+  int count[asciiChar]  = {0}
 
     return MaxCharCount;
 }
