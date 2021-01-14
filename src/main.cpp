@@ -2,7 +2,9 @@
 /**
 @mainpage COP 3330 Project 1
 
-@author Me and Myself
+@author Mauricio Cabrera
+
+I worked on this project myself, my partner never responded to my messages.
 
 Here you should tell us about how your project works.  How to run,
 any special things you have, etc.  Also, explain any non-trivial
@@ -26,8 +28,25 @@ Or else you loose points.
 #include <assert.h>
 #include <string>
 
-int get_max_count(std::string sinput){
-    return 0;
+int get_max_count(std::string sinput)
+{
+  int MaxCount = 0;
+  
+  for(char ch = 32; ch <127: ch++)
+	{
+	 int count = 0;
+
+	 for(int i = 0; i sinput.size(); i++)
+	{
+
+		if(ch == sunput[i]
+			count++;
+	}
+	  if(count > MaxCount)
+	MaxCount = count;
+	}
+
+    return MaxCount;
 }
 
 int main(int argc, char *argv[]){
